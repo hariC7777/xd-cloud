@@ -27,7 +27,7 @@ mybatis:
 
 xdclass-video-service:
   ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
 
 feign:
   sentinel:
