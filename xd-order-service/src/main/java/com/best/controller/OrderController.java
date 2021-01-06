@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import javax.annotation.Resource;
 import java.util.Date;
 import java.util.List;
 
@@ -35,7 +36,7 @@ public class OrderController {
     @Autowired
     private VideoOutService videoOutService;
 
-    @GetMapping("/save")
+    @RequestMapping("save")
     public Object save(int videoId){
 
         Video video = videoOutService.findById(videoId);
