@@ -12,6 +12,7 @@
         <module>xd-video-service</module>
         <module>xd-user-service</module>
         <module>xd-order-service</module>
+        <module>xd-gateway</module>
     </modules>
 
     <properties>
