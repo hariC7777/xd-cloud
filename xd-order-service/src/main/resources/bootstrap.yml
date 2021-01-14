@@ -5,7 +5,7 @@ spring:
   cloud:
     nacos:
       config:
-        server-addr: 192.168.220.131:8848 #Nacos配置中心地址
+        server-addr: 192.168.220.132:8848/nacos #Nacos配置中心地址
         file-extension: yaml #文件拓展格式
 
   profiles:
