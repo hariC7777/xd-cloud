@@ -13,7 +13,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <docker.image.prefix>xdclass-cloud</docker.image.prefix>
+        <docker.image.prefix>hari-cloud</docker.image.prefix>
     </properties>
 
 
